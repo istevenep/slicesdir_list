@@ -10,9 +10,9 @@ This is a fork of the slicedir tool from FSL. The script, `slicesdir_list.sh`, u
       find . -type f -name "t1.nii.gz" > images.txt
       ```
    - Run the script:
-     ```
-     ./slicesdir_list.sh images.txt
-     ```
+      ```
+      csh ./slicesdir_list.sh images.txt
+      ```
    - Open the generated `index.html` file in the `slicesdir` directory to view the output.
 
 
